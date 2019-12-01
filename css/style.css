@@ -1,0 +1,44 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+#main-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-black {
+    color: #fff;
+    background: #000;
+}
+
+#main-header .port-item {
+    width: 30%;
+}
+
+#main-header .port-item:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media(min-width:1199px) {
+    .port-item {
+        padding: 4em !important;
+    }
+}
+
+@media(max-width:500px) {
+    .small {
+        margin-right: 1em;
+    }
+}
+
+@media(max-width:380px) {
+    #main-header .port-item {
+        width: 25%;
+    }
+    .display {
+        font-size: 2.0rem;
+    }
+}
